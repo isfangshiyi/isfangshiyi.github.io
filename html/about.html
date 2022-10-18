@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <link rel="shortcut icon" href="https://i.ibb.co/8rv1Kvf/favicon.png">
+  
+    <!-- website thumbnail -->
+    <meta property='og:title' content='ShiyiFang Portfolio Website'/>
+    <meta property='og:image' content=''/>
+    <meta property='og:description' content='UI/UX/Experience Design' />
+    <meta property='og:url' content='https://isfangshiyi.github.io/'/>
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
+    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+    <meta property="og:type" content='website'/>
+    
+    <meta charset="utf-8">
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/structure.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/navigation.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/optionpage.css">
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <div id="bgId" class="bg-wrapper">
+      <div id="navbar">
+        <div class="title-headline">
+          <div id="zeId-blk" class="ze-blkcls">
+              <a href="../index.html">Shiyi Fang</a>
+          </div>
+          <div class="menu-cls" id="topnav">
+            <a class="project" href="project.html">项目</a>
+            <a class="about" href="">关于我</a>
+            <a href="javascript:void(0);" class="icon">
+              <img id="myMenu" class="menu" src="../images/menu-icon.png" alt="menu" onclick="showOptions(this.id)" style="cursor: pointer;">
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="about-cls">
+        <div class="about-title gs_reveal">
+          about
+        </div>
+        <img class="about-pic" src="../images/shiyi.jpg" alt="myphoto">
+        <p class="gs_reveal">
+          嗨，我是一名初级用户体验设计师，硕士毕业于格拉斯哥艺术学院交互设计，本科毕业于浙江大学城市学院电子信息工程。我擅长进行用户研究，致力于站在设计和技术的交叉点上，发现问题并制定创造性的解决方案。
+        </p>
+        <div class="about-email gs_reveal">
+          <div id="myEmail" class="emailaddr">
+            isfangshiyi@gmail.com
+          </div>
+          <div class="copy-icon" onclick="copyEmail()" onmouseout="outFunc()">
+            <img class="copyimg" src="../images/copy.png" alt="aboutme" >
+            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+          </div>
+        </div>
+        <!-- element <a> cannot be implemented with GSAP -->
+        <div class="cv gs_reveal">
+          <a class="cv_a" target="_blank" href="https://drive.google.com/file/d/1wPjmzHrty5CjTH437jGdPHCVyurtZD8t/view?usp=sharing">Resume</a>
+        </div>
+      </div>
+
+
+      <div class="footer">
+        <div class="zeright">
+          ©ShiyiFang 2022
+        </div>
+      </div>
+
+    </div>
+
+    <div id="optionpage" class="optionpage-cls">
+      <div class="close-cls">
+        <img id="closeId" class="close-img" src="../images/close-icon.png" onclick="closeOptions(this.id)">
+      </div>
+
+      <div class="option-title">
+        <a class="project" href="project.html">项目</a>
+        <a class="about" href="" >关于我</a>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../js/main.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script type="text/javascript" src="../js/gsap.js"></script>
+  </body>
+</html>
