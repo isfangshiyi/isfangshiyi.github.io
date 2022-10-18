@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <link rel="shortcut icon" href="https://i.ibb.co/tBbJm8S/favicon.png">
+
+    <meta property='og:title' content='Ze Tan Portfolio Website'/>
+    <meta property='og:image' content='https://i.ibb.co/1TQTC7p/web-image.jpg'/>
+    <meta property='og:description' content='Visual/UI/UX/Experience Design' />
+    <meta property='og:url' content='https://ztandesign.com/'/>
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='627' />
+    <!-- TYPE BELOW IS PROBABLY: 'website' or 'article' or look on https://ogp.me/#types -->
+    <meta property="og:type" content='website'/>
+    
+    <meta charset="utf-8">
+    <title>Niravo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/structure.css">
+    <link rel="stylesheet" href="../css/project_element.css">
+    <link rel="stylesheet" href="../css/navigation_gold.css">
+    <link rel="stylesheet" href="../css/footer_gold.css">
+    <link rel="stylesheet" href="../css/optionpage.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <div id="bgId" class="bg-wrapper">
+      <div id="navbar">
+        <div class="title-headline">
+          <div id="zeId-blk" class="ze-blkcls">
+              <a href="../index.html">Ze Tan</a>
+          </div>
+          <div class="menu-cls" id="topnav">
+            <a class="project" href="project.html">PROJECTS</a>
+            <a class="about" href="about.html">ABOUT</a>
+            <a class="blog" href="blog.html">BLOG</a>
+            <a href="javascript:void(0);" class="icon">
+              <img id="myMenu" class="menu" src="../images/menu-icon-gold.png" alt="menu" onclick="showOptions(this.id)" style="cursor: pointer;">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidenav">
+        <img id="goBack" class="goBack-cls" src="../images/button_back.svg" alt="back" onclick="backToLastPage(8)" style="cursor: pointer;">
+      </div>
+
+      <div id="backToTop" class="right-nav" onclick="topFunction()">
+        <img src="../images/johnson/button-backtoTop.svg" alt="back" style="cursor: pointer;">
+      </div>
+      
+      <div class="wrapper">
+        <div class="pg-title gs_reveal">
+          <span>The St. Nicholas</span> 
+          <span>National Shrine</span> 
+          <span>Tour App</span> 
+        </div>
+        <div class="slideshow-container" onmouseover="showArrow('prevBtn', 'nextBtn')" onmouseout="hideArrow('prevBtn', 'nextBtn')" >
+          <div class="mySlides fade"><img class="myImg" src="../images/stnicholas/stnicholas-1@2x.png"></div>
+          <!-- <div class="mySlides fade"><img class="myImg" src="../images/biolever/biolever_3@2x.png"></div>
+          <div class="mySlides fade"><img class="myImg" src="../images/biolever/biolever_4@2x.png"></div>
+          <div class="mySlides fade"><img class="myImg" src="../images/biolever/biolever_5@2x.png"></div>
+          <div class="mySlides fade"><img class="myImg" src="../images/biolever/biolever-1.gif"></div> -->
+          <!-- <img id="prevBtn" class="prev" onclick="plusSlides(-1)" src="../images/icon_left.svg">
+          <img id="nextBtn" class="next" onclick="plusSlides(1)" src="../images/icon_right.svg"> -->
+        </div>
+        <div class="dot-cls">
+          <!-- <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span> -->
+        </div>
+        
+        <div class="back-cls">
+          <img id="goBack" class="goBack-cls" src="../images/button_back.svg" alt="back" onclick="backToLastPage(8)" style="cursor: pointer;">
+          <div class="backDesc">Back To Project</div>
+        </div>
+
+        <div class="flex-cls">
+          <div class="pro-info gs_reveal">
+            <p>
+              <div style="color: #B2A89F; font-weight: 700;">TEAM</div>
+              <div>Julie Flechoux, Creative Direction <br> Ze Tan, Lead UI/UX Design<br>Jessica Lautin, Content Strategy<br>Catherine Wang, Content Researcher<br>Staci Hou, Project Management<br>Luobin Wang, Web Development</div>
+            </p>
+            <p>
+              <div style="color: #B2A89F; font-weight: 700;">DELIVERABLES</div>
+              <div>Concept Development<br> Wireframes & Prototype<br> User Testing<br>Style Guide <br>Interaction Design<br>Soundscape<br>3D Views</div>
+            </p>
+          </div>
+          <div class="pro-desc gs_reveal">
+            The St. Nicholas National Shrine is a Greek Orthodox Church next to the 9/11 Memorial in NYC. The original church was destroyed on 9/11 and is now being rebuilt. It will open to the public in the spring of 2022.
+            <br> <br>Our team is developing an immersive audio tour that provides 360° view exploration, virtual light, and candle and multi-language options for global visitors.
+            <br> <br>Stay tuned! </div>
+        </div>
+
+        <div class="pro-details2">
+          <div class="imgInfo gs_reveal_hide">
+            <p class="imgInfo-title">Immersive Audio Tour App</p>
+            <p>Intro videos<br>360° Exploration<br>Virtual Light a Candle<br>Icon Feature<br>Multi-language Transcripts & Video caption</p>
+          </div>
+          <img class="myImg w3-animate-opacity extra-margin-bottom img-desktopVersion" src="../images/stnicholas/stnicholas-2@2x.png">
+        </div>
+
+        <div class="credits gs_reveal">
+          <p>Credits:</p>
+          <p>Media Design: Gallagher & Associates</p>
+          <p>Media Development: Gallagher & Associates</p>
+          </div>
+        </div>
+
+        <div class="nav-bottom">
+          <div class="nav-bottom-inner">
+            <div class="prev-pro" style="margin-bottom: 39px;">
+              <a href="niravo.html">
+                <div class="arrow-blk">
+                  <img src="../images/icon_left_black.svg">
+                  <div class="pp-title">Previous Project</div>
+                </div>
+                <div class="nav-font">Niravo</div>
+              </a>
+            </div>
+  
+            <div class="next-pro">
+              <a href="icloth.html">
+                <div class="arrow-blk" style="justify-content: flex-end;">
+                  <div class="pp-title" style="margin: 0 10px 0 0;">Next Project</div>
+                  <img src="../images/icon_right_black.svg">
+                </div>
+                <div class="nav-font">JOHNSON & JOHNSON <br>360° VIRTUAL TOUR </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="social-media">
+            <a class="insta" href="https://www.instagram.com/ze_tan_/?hl=en" target="_blank">Instagram</a>
+            <a class="linkedin" href="https://www.linkedin.com/in/ze-tan-6321b393/" target="_blank">Linkedin</a>
+            <a class="behance" href="https://www.behance.net/ziatan" target="_blank">Behance</a>
+          </div>
+          <div class="zeright">
+            ©ZeTan 2021
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="optionpage" class="optionpage-cls">
+      <div class="close-cls">
+        <img id="closeId" class="close-img" src="../images/close-icon.png" onclick="closeOptions(this.id)">
+      </div>
+
+      <div class="option-title">
+        <a class="project" href="project.html">PROJECTS</a>
+        <a class="about" href="about.html" >ABOUT</a>
+        <a class="blog" href="blog.html">BLOG</a>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="../js/main.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script type="text/javascript" src="../js/personal_gospel.js"></script>
+    <script type="text/javascript" src="../js/gsap.js"></script>
+  </body>
+</html>
